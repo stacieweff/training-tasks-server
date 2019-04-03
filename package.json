@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --no-deprecation src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:seed": "node src/utils/seed.js"
+  },
+  "author": "Stacie Weffelmeyer",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "hapi": "^18.1.0",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10"
+  }
+}
